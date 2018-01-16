@@ -20,8 +20,9 @@
 
 #### 布局
 
-虽然RN使用的是精简版Flex，但Flex有用的绝大多数属性都是可以使用的，如果遇到布局问题，请查看阮一峰的教程。
+> 虽然RN使用的是精简版Flex，但Flex有用的绝大多数属性都是可以使用的，如果遇到布局问题，请查看阮一峰的教程。
 ####[Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
-稍后会将RN可以使用的Flex布局整理出来。
+> ##### 稍后会将RN可以使用的Flex布局整理出来。
+> 欢迎提PR
 
 
