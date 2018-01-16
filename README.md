@@ -5,6 +5,8 @@
 > 1、 在不修改`info.plist`文件之前，一定要用`https`的网络请求(如何修改请百度)；
 > 
 > 2、在使用定位，拍照，相机等权限的时候，也需要在`info.plist`中修改，可以参考[react-native-image-picker闪退的解决办法](https://www.jianshu.com/p/977bc5eea1b1)
+>
+>3、搜索框、长按等出来的菜单，做本地化处理后，可显示中文
 
 
 #### Android
