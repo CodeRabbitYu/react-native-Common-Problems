@@ -9,8 +9,8 @@
 
 #### Android
 > 1、真机调试的时候，需要在`Dev Settings`里面修改`Debug server host & port for device`，将`本地IP + :8081`填入输入框；
-
+>
 > 2、真机调试的时候，如果无法通过摇一摇唤起开发菜单，可以通过终端运行`adb shell input keyevent 82`唤起；
-
+>
 > 3、真机调试的时候，小米、魅族要开启悬浮窗权限和关闭MIUI优化；
 
