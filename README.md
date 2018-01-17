@@ -3,6 +3,10 @@
 
 #### JS
 > RN开发使用的是JavaScript，不管是ES5，ES6, TypeScript，只要是JS的语法，RN都能用，如果遇到JS问题，请直接百度。
+> 
+
+#### 通用
+> 1、RN里面真的没有好用的下拉刷新和上拉加载组件，都是用`ScrollView`，`FlatList`，`SectionList`，`ListView`提供的效果；
 
 #### iOS
 > 1、 在不修改`info.plist`文件之前，一定要用`https`的网络请求(如何修改请百度)；
