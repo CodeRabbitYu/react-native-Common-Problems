@@ -16,8 +16,6 @@
 > 3、搜索框、长按等出来的菜单，做本地化处理后，可显示中文；
 >
 
-
-
 #### Android
 > 1、真机调试的时候，需要在`Dev Settings`里面修改`Debug server host & port for device`，将`本地IP + :8081`填入输入框；
 >
@@ -25,11 +23,18 @@
 >
 > 3、真机调试的时候，小米、魅族要开启悬浮窗权限和关闭MIUI优化；
 
+#### 版本问题
+##### 已知
+> 1、0.52版本`react-native-vector-icons`正常安装后不能使用。
+> 解决方式：执行`rm ./node_modules/react-native/local-cli/core/__fixtures__/files/package.json`。
+> 参考[https://github.com/oblador/react-native-vector-icons/issues/626](https://github.com/oblador/react-native-vector-icons/issues/626)。
+
 #### 布局
 
 > 虽然RN使用的是精简版Flex，但Flex有用的绝大多数属性都是可以使用的，如果遇到布局问题，请查看阮一峰的教程。
 ####[Flex 布局教程](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html?utm_source=tuicool)
 > ##### 稍后会将RN可以使用的Flex布局整理出来。
 > 欢迎提PR
+> 
 
 
