@@ -9,7 +9,10 @@
 > 1、RN里面真的没有好用的下拉刷新和上拉加载组件，都是用`ScrollView`，`FlatList`，`SectionList`，`ListView`提供的效果；
 > 
 > 2、如果需要安装新的三方库，请一定首先尝试`yarn add xxx`；如果下载了开源项目，请一定首先尝试`yarn`；请尽可能的少用`npm`、`rnpm`等过时操作；
-> 3、如果下载了很老的三方库，使用的时候会报关于`PropTypes`的错误，原因是`PropTypes`已经从`react`中移除，需要安装`prop-types`这个三方库。
+> 
+> 3、如果下载了很老的三方库，使用的时候会报关于`PropTypes`的错误，原因是`PropTypes`已经从`react`中移除，需要安装`prop-types`这个三方库；
+> 
+> 4、关于`react-native`版本升级，我的建议是迁移(创建新项目，将老代码拷贝到新项目中)，而不是直接升级，因为RN每次更新有很大的不确定性；
 
 
 #### iOS
