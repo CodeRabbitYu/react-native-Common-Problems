@@ -7,6 +7,8 @@
 
 #### 通用
 > 1、RN里面真的没有好用的下拉刷新和上拉加载组件，都是用`ScrollView`，`FlatList`，`SectionList`，`ListView`提供的效果；
+> 2、如果需要安装新的三方库，请一定首先尝试`yarn add xxx`；如果下载了开源项目，请一定首先尝试`yarn`；请尽可能的少用`npm`、`rnpm`等过时操作；
+
 
 #### iOS
 > 1、 在不修改`info.plist`文件之前，一定要用`https`的网络请求(如何修改请百度)；
@@ -15,6 +17,7 @@
 >
 > 3、搜索框、长按等出来的菜单，做本地化处理后，可显示中文；
 >
+> 4、在RN0.45版本后，iOS新建项目之前需要配置`third-party`，请按照下面教程操作[iOS RN 0.45以上版本所需的第三方编译库(boost等)](https://reactnative.cn/post/4301)
 
 #### Android
 > 1、真机调试的时候，需要在`Dev Settings`里面修改`Debug server host & port for device`，将`本地IP + :8081`填入输入框；
